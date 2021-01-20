@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+main {
+    display: flex;flex-wrap: wrap;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+article {
+    flex: none;
+    padding: 10px;
+    width: 270px;margin: 10px;
+    background-color: #7788aa;
+    color: #ffffff;
+}
+@media (max-width:1200px) {
+    article {
+        width: 45%;
+    }
+}
+@media (max-width:500px) {
+    article {
+        width: 90%;
+    }
+}
